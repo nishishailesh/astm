@@ -584,7 +584,7 @@ void analyse_file_data(char* buf,MYSQL* conn)
 int main(int argc,char *argv[])
 {
 	printf("Storage size for int : %d \n", sizeof(int));
-	MYSQL* conn=get_mysql_connection("127.0.0.1","root","nishiiilu");
+	MYSQL* conn=get_mysql_connection("127.0.0.1","root","passwordxxx");
 	//run_mysql_query(conn,"biochemistry","select * from user");
 	file_counter=1;	//for use by filepath()
 	
